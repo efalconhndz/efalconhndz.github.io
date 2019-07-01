@@ -1,27 +1,32 @@
-baseURL = "https://efalconhndz.github.io"
+baseURL = "https://example.com/"
 languageCode = "en-us"
+title = "Emanuel Falcón"
 
 [params]
     firstName = "Emanuel"
     lastName = "Falcón"
     address = "Kansas City, MO"
-    phone = "1-555-555-1234"
-    contactNote = "Dev Tools Engineer" #used in QR code only
-    profileImage = "img/me.png"
+    #phone = "1-555-555-1234"
+    contactNote = "Dev Tools Engineer"
+    profileImage = "img/TechChat.png"
     email = "emanuel.a.falcon@gmail.com"
-    description = "Senior Database Administrator wuth experience in managing large scale production databases on Oracle 11g and 12c." 
+    description = "Senior Database Administrator with experience adminitrating large scale database systems on Oracle 11g and 12c."
     favicon = "images/favicon.ico"
-
-    # what sections to display.  Setting to false disables navigation and section.
+    # what sections
     showSkills = true
     showProjects = true
     showOpenSource = true
     showPublications = true
     showExperience = true
     showEducation = true
+
     showQr = false
 
-    # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
-    gitCommitPrefix = "https://github.com/YOURNAME/REPONAME/commit/"
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/emanuel-falcón-8bb28753"
 
 
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/efalconhndz/"
