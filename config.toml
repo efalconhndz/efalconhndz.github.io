@@ -1,0 +1,27 @@
+baseURL = "https://efalconhndz.github.io"
+languageCode = "en-us"
+
+[params]
+    firstName = "Emanuel"
+    lastName = "Falcón"
+    address = "Kansas City, MO"
+    phone = "1-555-555-1234"
+    contactNote = "Dev Tools Engineer" #used in QR code only
+    profileImage = "img/me.png"
+    email = "emanuel.a.falcon@gmail.com"
+    description = "Senior Database Administrator wuth experience in managing large scale production databases on Oracle 11g and 12c." 
+    favicon = "images/favicon.ico"
+
+    # what sections to display.  Setting to false disables navigation and section.
+    showSkills = true
+    showProjects = true
+    showOpenSource = true
+    showPublications = true
+    showExperience = true
+    showEducation = true
+    showQr = false
+
+    # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
+    gitCommitPrefix = "https://github.com/YOURNAME/REPONAME/commit/"
+
+
